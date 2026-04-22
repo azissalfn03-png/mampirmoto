@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAMPIR MOTO | Jasa Fotografi Keliling</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap');
+        
+        body { font-family: 'Plus Jakarta Sans', sans-serif; scroll-behavior: smooth; }
+        .glass { background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(12px); border-bottom: 1px solid rgba(255,255,255,0.1); }
+        .card-glass { background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255,255,255,0.1); transition: all 0.3s ease; }
+        .card-glass:hover { background: rgba(255, 255, 255, 0.08); transform: translateY(-10px); border-color: #EAB308; }
+        .text-gradient { background: linear-gradient(to right, #EAB308, #FDE047); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    </style>
+</head>
+<body class="bg-[#0a0a0a] text-white overflow-x-hidden">
+
+   <nav class="fixed w-full z-50 px-6 h-20 flex justify-between items-center glass">
+        
+        <div class="relative h-full flex items-center">
+            <a href="#home" class="left-0 hover:scale-110 transition-transform duration-300">
+                <img src="Mampir moto.png" alt="Logo Mampir Moto" 
+                     class="h-24 w-auto grayscale invert mix-blend-screen opacity-95 hover:opacity-100 transition drop-shadow-[0_10px_20px_rgba(255,255,255,0.2)]">
+            </a>
+        </div>
+
+        <div class="hidden md:flex space-x-8 text-sm font-medium uppercase tracking-widest items-center">
+            <a href="#home" class="hover:text-yellow-500 transition">Beranda</a>
+            <a href="#makna" class="hover:text-yellow-500 transition">Makna</a>
+            <a href="#portofolio" class="hover:text-yellow-500 transition">Karya</a>
+            <a href="#tim" class="hover:text-yellow-500 transition">Tim</a>
+            <a href="#paket" class="hover:text-yellow-500 transition"> Paket Harga</a>
+            <a href="#booking" class="bg-yellow-500 text-black px-6 py-2 rounded-full font-bold hover:bg-yellow-400 transition">Pesan</a>
+        </div>
+        
+    </nav>
+
+    <section id="home" class="relative h-screen flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1452587925148-ce544e77e70d?q=80&w=1974&auto=format&fit=crop" class="w-full h-full object-cover opacity-40" alt="Background">
+            <div class="absolute inset-0 bg-gradient-to-b from-transparent via-[#0a0a0a]/80 to-[#0a0a0a]"></div>
+        </div>
+        <div class="relative z-10 text-center px-6 animate__animated animate__fadeIn">
+            <h1 class="text-6xl md:text-8xl font-extrabold mb-4 leading-tight">Tangkap Momen<br><span class="text-gradient">Sambil Lewat.</span></h1>
+            <p class="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto mb-10">Fotografi keliling profesional yang siap menghampiri Anda di tempat-tempat wilayah Ponorogo dan sekitarnya.</p>
+            <div class="flex flex-col md:flex-row gap-4 justify-center">
+                <a href="#portofolio" class="bg-white text-black px-10 py-4 rounded-full font-bold hover:bg-gray-200 transition">Lihat Portofolio</a>
+                <a href="#booking" class="border border-white/20 px-10 py-4 rounded-full font-bold hover:bg-white/10 transition">Mulai Konsultasi</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="makna" class="py-24 px-6 md:px-20 bg-[#0d0d0d]">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-yellow-500 uppercase tracking-widest font-bold mb-4">Filosofi Kami</h2>
+            <h3 class="text-4xl md:text-5xl font-bold mb-8 italic">"Kenapa MAMPIR MOTO?"</h3>
+            <p class="text-gray-400 text-xl leading-relaxed">
+                <span class="text-white font-semibold italic">Mampir</span> berarti singgah sejenak, melambangkan keramahan dan kemudahan akses bagi siapa saja. 
+                <span class="text-white font-semibold italic">Moto</span> adalah aksi kami untuk menangkap emosi melalui lensa. Kami percaya momen terbaik sering terjadi secara spontan, dan kami hadir untuk memastikan momen "mampir" Anda abadi selamanya.
+            </p>
+        </div>
+    </section>
+
+    <section id="portofolio" class="py-24 px-6">
+        <div class="text-center mb-16">
+            <h2 class="text-4xl font-bold mb-4">Hasil Karya Terbaru</h2>
+            <p class="text-gray-500">Kumpulan cerita yang kami abadikan lewat lensa.</p>
+        </div>
+        <div class="columns-1 md:columns-3 gap-6 space-y-6 max-w-7xl mx-auto">
+            <div class="rounded-2xl overflow-hidden animate__animated animate__fadeInUp"><img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600" class="hover:scale-110 transition duration-500"></div>
+            <div class="rounded-2xl overflow-hidden animate__animated animate__fadeInUp" style="animation-delay: 0.1s"><img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=600" class="hover:scale-110 transition duration-500"></div>
+            <div class="rounded-2xl overflow-hidden animate__animated animate__fadeInUp" style="animation-delay: 0.2s"><img src="https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?w=600" class="hover:scale-110 transition duration-500"></div>
+            <div class="rounded-2xl overflow-hidden animate__animated animate__fadeInUp"><img src="https://images.unsplash.com/photo-1471341971476-ae15ff5dd4ea?w=600" class="hover:scale-110 transition duration-500"></div>
+            <div class="rounded-2xl overflow-hidden animate__animated animate__fadeInUp"><img src="https://images.unsplash.com/photo-1520854221256-17451cc331bf?w=600" class="hover:scale-110 transition duration-500"></div>
+        </div>
+    </section>
+
+    <section id="tim" class="py-24 px-6 bg-[#0d0d0d]">
+        <div class="text-center mb-16">
+            <h2 class="text-4xl font-bold">Dibalik Layar</h2>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-6xl mx-auto">
+            <div class="text-center group">
+                <div class="w-40 h-40 mx-auto rounded-full overflow-hidden border-4 border-yellow-500/20 group-hover:border-yellow-500 transition mb-4">
+                    <img src="4.jpeg" class="w-full h-full object-cover">
+                </div>
+                <h4 class="font-bold">Yusuf kamil</h4>
+                <p class="text-sm text-gray-500">Lead Business</p>
+            </div>
+            <div class="text-center group">
+                <div class="w-40 h-40 mx-auto rounded-full overflow-hidden border-4 border-yellow-500/20 group-hover:border-yellow-500 transition mb-4">
+                    <img src="3.jpeg" class="w-full h-full object-cover">
+                </div>
+                <h4 class="font-bold">SIntan Umaya Riesti</h4>
+                <p class="text-sm text-gray-500">Financial Manager</p>
+            </div>
+            <div class="text-center group">
+                <div class="w-40 h-40 mx-auto rounded-full overflow-hidden border-4 border-yellow-500/20 group-hover:border-yellow-500 transition mb-4">
+                    <img src="2.jpeg" class="w-full h-full object-cover">
+                </div>
+                <h4 class="font-bold">Marcello Alfiano Darma Putra</h4>
+                <p class="text-sm text-gray-500">Fotographer</p>
+            </div>
+            <div class="text-center group">
+                <div class="w-40 h-40 mx-auto rounded-full overflow-hidden border-4 border-yellow-500/20 group-hover:border-yellow-500 transition mb-4">
+                    <img src="1.jpeg" class="w-full h-full object-cover">
+                </div>
+                <h4 class="font-bold">Alfan Azis H.</h4>
+                <p class="text-sm text-gray-500">Marketing Staff</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="paket" class="py-24 px-6">
+        <div class="text-center mb-16">
+            <h2 class="text-4xl font-bold">Paket Favorit</h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            <div class="card-glass p-8 rounded-3xl">
+                <h4 class="text-xl font-bold mb-2">Street Session</h4>
+                <div class="text-4xl font-extrabold text-yellow-500 mb-6">Rp 10k</div>
+                <ul class="space-y-3 text-gray-400 mb-8">
+                    <li><i class="fas fa-check text-yellow-500 mr-2"></i> 4 File Foto</li>
+                    <li><i class="fas fa-check text-yellow-500 mr-2"></i> Bebas Pilih Foto</li>
+                    <li><i class="fas fa-check text-yellow-500 mr-2"></i> Tanpa Batas Sesi Foto</li>
+                </ul>
+                <button class="w-full py-3 rounded-xl border border-white/20 hover:bg-white hover:text-black transition">Pilih Paket</button>
+            </div>
+            <div class="card-glass p-8 rounded-3xl border-yellow-500 scale-105 shadow-2xl shadow-yellow-500/10">
+                <div class="bg-yellow-500 text-black text-xs font-bold inline-block px-3 py-1 rounded-full mb-4">PALING POPULER</div>
+                <h4 class="text-xl font-bold mb-2">Graduation/Event</h4>
+                <div class="text-4xl font-extrabold text-yellow-500 mb-6">Rp 20K</div>
+                <ul class="space-y-3 text-gray-400 mb-8">
+                    <li><i class="fas fa-check text-yellow-500 mr-2"></i> 5 File Foto</li>
+                    <li><i class="fas fa-check text-yellow-500 mr-2"></i> Bebas Pilih Aksesoris</li>
+                    <li><i class="fas fa-check text-yellow-500 mr-2"></i> Free 2 Foto Cetak</li>
+                </ul>
+                <button class="w-full py-3 rounded-xl bg-yellow-500 text-black font-bold hover:bg-yellow-400 transition">Pilih Paket</button>
+            </div>
+            <div class="card-glass p-8 rounded-3xl">
+                <h4 class="text-xl font-bold mb-2">Premium Wedding</h4>
+                <div class="text-4xl font-extrabold text-yellow-500 mb-6">Rp 50K</div>
+                <ul class="space-y-3 text-gray-400 mb-8">
+                    <li><i class="fas fa-check text-yellow-500 mr-2"></i> 10 File Foto</li>
+                    <li><i class="fas fa-check text-yellow-500 mr-2"></i> Bebas Pilih Aksesoris</li>
+                    <li><i class="fas fa-check text-yellow-500 mr-2"></i> Background Menarik</li>
+                    <li><i class="fas fa-check text-yellow-500 mr-2"></i> Free 10 Foto Cetak</li>
+                </ul>
+                <button class="w-full py-3 rounded-xl border border-white/20 hover:bg-white hover:text-black transition">Pilih Paket</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 px-6 bg-yellow-500 text-black">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+            <h2 class="text-5xl font-extrabold leading-tight">Apa Kata Mereka Tentang Kami?</h2>
+            <div class="space-y-6">
+                <div class="bg-white p-6 rounded-2xl shadow-lg">
+                    <p class="italic mb-4">"Hasilnya di luar ekspektasi! Keren banget gaya fotonya candid tapi tetep estetik. Mampir Moto emang paling ngerti angle."</p>
+                    <div class="font-bold">- Rian, Mahasiswa</div>
+                </div>
+                <div class="bg-white p-6 rounded-2xl shadow-lg">
+                    <p class="italic mb-4">"Sangat ramah dan on-time. Bookingnya juga gampang banget lewat WhatsApp."</p>
+                    <div class="font-bold">- Sarah, Wedding Client</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="booking" class="py-24 px-6">
+        <div class="max-w-3xl mx-auto card-glass p-10 rounded-3xl text-center">
+            <h2 class="text-4xl font-bold mb-4">Siap Mengabadikan Momen?</h2>
+            <p class="text-gray-400 mb-10">Klik tombol di bawah ini untuk langsung terhubung dengan admin kami via WhatsApp.</p>
+            <a href="https://wa.me/628123456789?text=Halo%20Mampir%20Moto,%20saya%20ingin%20booking%20jadwal%20foto!" target="_blank" class="inline-flex items-center gap-3 bg-[#25D366] text-white px-10 py-5 rounded-full text-xl font-bold hover:scale-105 transition duration-300">
+                <i class="fab fa-whatsapp text-3xl"></i> Chat Admin Sekarang
+            </a>
+        </div>
+    </section>
+
+    <footer class="py-12 border-t border-white/10 text-center text-gray-500">
+        <div class="flex justify-center mb-6">
+            <img src="Mampir moto.png" alt="Logo Mampir Moto" class="h-28 w-auto grayscale invert mix-blend-screen opacity-70 hover:opacity-100 transition">
+        </div>
+        <div class="flex justify-center space-x-6 mb-8 text-xl">
+            <a href="#" class="hover:text-yellow-500 transition"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="hover:text-yellow-500 transition"><i class="fab fa-tiktok"></i></a>
+            <a href="#" class="hover:text-yellow-500 transition"><i class="fab fa-facebook"></i></a>
+        </div>
+        <p>&copy; 2026 MAMPIR MOTO Ponorogo. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
